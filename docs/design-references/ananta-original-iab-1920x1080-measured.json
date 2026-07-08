@@ -1,0 +1,105 @@
+{
+  "source": "https://www.anantaparis.com/looks/heroines-drop/the-rebel",
+  "screenshot": "docs/design-references/ananta-original-iab-1920x1080.png",
+  "overlay": "docs/design-references/ananta-original-iab-1920x1080-measured.png",
+  "capture": {
+    "browserViewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 1.25
+    },
+    "screenshotSize": {
+      "width": 1904,
+      "height": 1080
+    }
+  },
+  "figureBoxes": {
+    "left_far": {
+      "x": 24,
+      "y": 330,
+      "width": 78,
+      "height": 348,
+      "centerX": 63.0,
+      "centerY": 504.0,
+      "heightVsMain": 0.412
+    },
+    "left_mid": {
+      "x": 330,
+      "y": 250,
+      "width": 181,
+      "height": 534,
+      "centerX": 420.5,
+      "centerY": 517.0,
+      "heightVsMain": 0.632
+    },
+    "main": {
+      "x": 776,
+      "y": 115,
+      "width": 304,
+      "height": 845,
+      "centerX": 928.0,
+      "centerY": 537.5,
+      "heightVsMain": 1.0
+    },
+    "right_mid": {
+      "x": 1352,
+      "y": 289,
+      "width": 177,
+      "height": 485,
+      "centerX": 1440.5,
+      "centerY": 531.5,
+      "heightVsMain": 0.574
+    },
+    "right_far": {
+      "x": 1779,
+      "y": 402,
+      "width": 99,
+      "height": 272,
+      "centerX": 1828.5,
+      "centerY": 538.0,
+      "heightVsMain": 0.322
+    }
+  },
+  "uiElements": {
+    "backgroundCanvas": {
+      "x": 0,
+      "y": 0,
+      "width": 1905,
+      "height": 1080,
+      "intrinsicWidth": 2381,
+      "intrinsicHeight": 1350
+    },
+    "timelineStrip": {
+      "x": 187.4,
+      "y": 233,
+      "width": 175.4,
+      "height": 24,
+      "sourceIntrinsic": {
+        "width": 1919,
+        "height": 384
+      }
+    },
+    "productBar": {
+      "x": 20,
+      "y": 1032,
+      "width": 626.7,
+      "height": 28
+    },
+    "productThumb": {
+      "width": 24,
+      "height": 24,
+      "sourceIntrinsic": {
+        "width": 40,
+        "height": 60
+      }
+    },
+    "lookThumbVideos": {
+      "width": 24,
+      "height": 24,
+      "sourceIntrinsic": {
+        "width": 100,
+        "height": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "editor": {
+    "assets": {
+      "ghostDominaVideo": "/images/ananta/ghost-the-domina.mp4",
+      "ghostKiddoVideo": "/images/ananta/ghost-the-kiddo.mp4",
+      "ghostSirenVideo": "/images/ananta/published/20260707175200-0468842a-01_0000000-0300.mp4",
+      "ghostWarriorVideo": "/images/ananta/ghost-the-warrior.mp4",
+      "logoImage": "/images/ananta/published/20260707235052-5da7f9a1-new-logo.svg",
+      "mainFallback": "/images/ananta/look-the-rebel.png",
+      "mainVideo": "/images/ananta/published/20260707153224-f4755a01-xr_0000000-0300.mp4",
+      "timelineDesktop": "/images/ananta/rebel-timeline-desktop.jpg",
+      "timelineMobile": "/images/ananta/rebel-timeline-mobile.jpg",
+      "bgDesktop": "/images/ananta/published/20260707235052-74e6d942-bg.jpg",
+      "bgMobile": "/images/ananta/published/20260707235052-6156dfd8-bg-m.jpg"
+    },
+    "characterText": {
+      "domina": {
+        "lookNumber": "MECHAMIKA",
+        "title": "梅卡尼卡"
+      },
+      "kiddo": {
+        "lookNumber": "TAFFY",
+        "title": "塔菲"
+      },
+      "rebel": {
+        "lookNumber": "LAODA",
+        "title": "队长"
+      },
+      "siren": {
+        "lookNumber": "LAODA",
+        "title": "队长"
+      },
+      "warrior": {
+        "lookNumber": "RICHIE",
+        "title": "里希"
+      }
+    },
+    "fontFamily": "\"Eurostile Ananta\", \"Helvetica Neue\", Arial, sans-serif",
+    "hidden": {
+      "details": true,
+      "figure": false,
+      "footer": true,
+      "ghosts": false,
+      "header": false,
+      "lookInfo": false,
+      "lookNav": false,
+      "products": false,
+      "timeline": false
+    },
+    "products": [
+      {
+        "title": "NCCA",
+        "image": "/images/ananta/product-nikita-thumb.jpg"
+      },
+      {
+        "title": "CAT EXPRESS",
+        "image": "/images/ananta/product-beatrix-thumb.jpg"
+      }
+    ],
+    "text": {
+      "bodyLabel": "Body",
+      "bodyValue": "S",
+      "cartLabel": "编号",
+      "cartSuffix": "00",
+      "coatLabel": "编号",
+      "coatValue": "S",
+      "footerEmail": "hello@anantaparis.com",
+      "footerInstagram": "Instagram",
+      "footerManifesto": "Born on the road, made for the city. Technical, protective and unapologetically feminine, our pieces give women the confidence to move freely. A call to carve your own path, with no compromise and no concession.",
+      "footerShipping": "Shipping policy",
+      "footerSizeGuide": "Size Guide",
+      "footerTerms": "Terms of service",
+      "headerAll": "数量",
+      "headerAllSuffix": "88",
+      "headerMenu": "首页",
+      "headerStories": "队列",
+      "headerStoriesSuffix": "44",
+      "lookKicker": "LAODA",
+      "lookNavLabel": "阵营",
+      "lookNavSuffix": "LAODA",
+      "lookTitle": "队长",
+      "productsButtonLabel": "切换 //",
+      "productView": ">",
+      "productsClose": "Close",
+      "productsOpen": ">",
+      "sizeLabel": "Size",
+      "sizeValue": "178cm"
+    },
+    "textScale": {
+      "lookTitle": 1.3000000000000003,
+      "lookKicker": 1.7500000000000007,
+      "productsButtonLabel": 0.9999999999999998,
+      "lookNavSuffix": 0.8499999999999999
+    },
+    "thumbs": [
+      {
+        "id": "kiddo",
+        "label": "THE KIDDO",
+        "src": "/images/ananta/000-01.jpg",
+        "video": "",
+        "current": false
+      },
+      {
+        "id": "rebel",
+        "label": "THE REBEL",
+        "src": "/images/ananta/000-02.jpg",
+        "video": "",
+        "current": true
+      },
+      {
+        "id": "domina",
+        "label": "THE WARRIOR",
+        "src": "/images/ananta/000-03.jpg",
+        "video": "",
+        "current": false
+      },
+      {
+        "href": "#",
+        "label": "LINK 4",
+        "src": "/images/ananta/000-04.jpg",
+        "video": "",
+        "current": false,
+        "id": "warrior"
+      }
+    ],
+    "logoScale": 1.9,
+    "chatCards": {
+      "rebel": {
+        "avatar": "",
+        "name": "SEYMOUR",
+        "dialog": "充满破坏与创造欲的灵魂画师。唯有涂鸦才是真爱，看这完美的创作，你一定会着魔的。"
+      },
+      "siren": {
+        "avatar": "",
+        "name": "VIVIEN",
+        "dialog": "优雅与危险并存。每一个转身都是艺术品，每一道目光都是陷阱。"
+      },
+      "kiddo": {
+        "avatar": "",
+        "name": "LUNA",
+        "dialog": "永远年轻，永远热泪盈眶。这个世界就是我的游乐场。"
+      },
+      "warrior": {
+        "avatar": "",
+        "name": "RAVEN",
+        "dialog": "战场是我的舞台。伤痕是最好的勋章，胜利是唯一的答案。"
+      },
+      "domina": {
+        "avatar": "",
+        "name": "SAGE",
+        "dialog": "掌控一切的感觉，比任何东西都令人着迷。规则由我书写。"
+      }
+    },
+    "chatDialogScale": 1,
+    "timelineLookImages": [
+      {
+        "desktop": "/images/ananta/xr_timeline_480x96_24frames.png",
+        "mobile": "/images/ananta/xr_timeline_1562x116_80frames.jpg",
+        "label": "Rebel"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "label": "Siren"
+      },
+      {
+        "desktop": "/images/ananta/ghost_the_kiddo_timeline_480x96_24frames.jpg",
+        "mobile": "/images/ananta/ghost_the_kiddo_timeline_1562x116_80frames.jpg",
+        "label": "Kiddo"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "label": "Warrior"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "label": "Domina"
+      }
+    ],
+    "chatCard": {
+      "avatar": "",
+      "name": "SEYMOUR",
+      "dialog": "充满破坏与创造欲的灵魂画师。唯有涂鸦才是真爱，看这完美的创作，你一定会着魔的。"
+    },
+    "timelineItems": [
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "href": "#",
+        "label": "Item 1"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "href": "#",
+        "label": "Item 2"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "href": "#",
+        "label": "Item 3"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "href": "#",
+        "label": "Item 4"
+      },
+      {
+        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "href": "#",
+        "label": "Item 5"
+      }
+    ]
+  },
+  "updatedAt": "2026-07-08T00:00:16.063Z"
+}

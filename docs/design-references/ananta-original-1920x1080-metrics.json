@@ -1,0 +1,1007 @@
+{
+  "url": "https://www.anantaparis.com/looks/heroines-drop/the-rebel",
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "devicePixelRatio": 1
+  },
+  "title": "Ananta",
+  "videos": [
+    {
+      "label": "video.TransversalBarItem_media__PINXA",
+      "src": "https://cdn.shopify.com/videos/c/o/v/207d5ff1a38348e096fb6c5b26970301.mp4",
+      "poster": null,
+      "intrinsic": {
+        "width": 100,
+        "height": 100,
+        "duration": 5
+      },
+      "rendered": {
+        "x": 307.3,
+        "y": 80.5,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      },
+      "paused": false,
+      "readyState": 4
+    },
+    {
+      "label": "video.TransversalBarItem_media__PINXA",
+      "src": "https://cdn.shopify.com/videos/c/o/v/094c8829597d40cda5ffdc8ac034992a.mp4",
+      "poster": null,
+      "intrinsic": {
+        "width": 100,
+        "height": 100,
+        "duration": 5
+      },
+      "rendered": {
+        "x": 1822.3,
+        "y": 22,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.4",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      },
+      "paused": false,
+      "readyState": 4
+    },
+    {
+      "label": "video.TransversalBarItem_media__PINXA",
+      "src": "https://cdn.shopify.com/videos/c/o/v/2262f8b149bd4914831f66c69f3c19f7.mp4",
+      "poster": null,
+      "intrinsic": {
+        "width": 100,
+        "height": 100,
+        "duration": 5
+      },
+      "rendered": {
+        "x": 1848.3,
+        "y": 22,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      },
+      "paused": false,
+      "readyState": 4
+    },
+    {
+      "label": "video.TransversalBarItem_media__PINXA",
+      "src": "https://cdn.shopify.com/videos/c/o/v/d745a7be3e5f45f3b510143f68b2aa02.mp4",
+      "poster": null,
+      "intrinsic": {
+        "width": 100,
+        "height": 100,
+        "duration": 5
+      },
+      "rendered": {
+        "x": 1874.3,
+        "y": 22,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.4",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      },
+      "paused": false,
+      "readyState": 4
+    }
+  ],
+  "images": [
+    {
+      "label": "img",
+      "src": "https://cdn.sanity.io/images/mzz4iq4t/production/ddaf0eb4fd96f716bdf1f270aebe1bad57a5d940-480x96.jpg?w=2048&q=70&auto=format&fit=scale",
+      "alt": "Image",
+      "intrinsic": {
+        "width": 1919,
+        "height": 384
+      },
+      "rendered": {
+        "x": 188.7,
+        "y": 233,
+        "width": 176.7,
+        "height": 24,
+        "area": 4239.8
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "img.ItemBar_image__wXV8u",
+      "src": "https://cdn.shopify.com/s/files/1/0905/9637/6920/files/P250317104650-1-TIFF-7_40x.jpg?v=1743585408&fit=scale",
+      "alt": "NIKITA BODY black",
+      "intrinsic": {
+        "width": 40,
+        "height": 60
+      },
+      "rendered": {
+        "x": 22,
+        "y": 1034,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "1 / 1"
+      }
+    },
+    {
+      "label": "img.ItemBar_image__wXV8u",
+      "src": "https://cdn.shopify.com/s/files/1/0905/9637/6920/files/P250317115446-1-TIFF-1_40x.jpg?v=1743585578&fit=scale",
+      "alt": "BEATRIX COAT",
+      "intrinsic": {
+        "width": 40,
+        "height": 60
+      },
+      "rendered": {
+        "x": 335.3,
+        "y": 1034,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "contain",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "1 / 1"
+      }
+    }
+  ],
+  "canvases": [
+    {
+      "label": "canvas.Background_canvas___WfAP",
+      "intrinsic": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto 1920 / 1080"
+      }
+    }
+  ],
+  "largeElements": [
+    {
+      "label": "div#__next",
+      "text": "All27Stories04MenuCart00Collection01 / 01Look03/11NIKITA BODY blackViewBEATRIX C",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1671.8,
+        "area": 3209850
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "main.Root_wrapper__7t_4w.composition_base__XQo6f.ready",
+      "text": "All27Stories04MenuCart00Collection01 / 01Look03/11NIKITA BODY blackViewBEATRIX C",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1671.8,
+        "area": 3209850
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Root_inner__cxF2x",
+      "text": "",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "sticky",
+        "zIndex": "2",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div",
+      "text": "",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Page_wrapper__4sVUY.Page_transparent__9_3wO.undefined.Page_shown__SSgUL",
+      "text": "",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "relative",
+        "zIndex": "5",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Background_wrapper__A7j5c",
+      "text": "",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "fixed",
+        "zIndex": "1",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "canvas.Background_canvas___WfAP",
+      "text": "",
+      "rendered": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "area": 2073600
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto 1920 / 1080"
+      }
+    },
+    {
+      "label": "div.Footer_wrapper__yxAOD",
+      "text": "Born on the road, made for the city. Technical, protective and unapologetically ",
+      "rendered": {
+        "x": 0,
+        "y": 1080,
+        "width": 1920,
+        "height": 591.8,
+        "area": 1136250
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "relative",
+        "zIndex": "100",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Footer_manifesto__zyM5V.composition_heading__SmUUC",
+      "text": "Born on the road, made for the city. Technical, protective and unapologetically ",
+      "rendered": {
+        "x": 656.7,
+        "y": 1181,
+        "width": 606.7,
+        "height": 363,
+        "area": 220216.2
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "relative",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 186.7,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 343.3,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 656.7,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 813.3,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 1126.7,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 1283.3,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 1596.7,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 1753.3,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147605.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 30,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147588.8
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 500,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147588.8
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 970,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147588.8
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GridHelper_gridHelperCol__90nQe",
+      "text": "",
+      "rendered": {
+        "x": 1440,
+        "y": 0,
+        "width": 136.7,
+        "height": 1080,
+        "area": 147588.8
+      },
+      "visible": true,
+      "style": {
+        "opacity": "0.1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.PageInfo_outer__nntOE.PageInfo_hasBottomLeftBar__BR4gE",
+      "text": "Look 03 / 11THE REBEL NaN° / 360° Size   178cm   Coat   S   Body   S",
+      "rendered": {
+        "x": 30,
+        "y": 144,
+        "width": 337,
+        "height": 221.4,
+        "area": 74608.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "300",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.PageInfo_wrapper__cUoPG",
+      "text": "Look 03 / 11THE REBEL NaN° / 360° Size   178cm   Coat   S   Body   S",
+      "rendered": {
+        "x": 30,
+        "y": 144,
+        "width": 337,
+        "height": 221.4,
+        "area": 74608.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "nav.Footer_bars__O9FLM",
+      "text": "Terms of serviceShipping policySize Guidehello@anantaparis.comInstagram",
+      "rendered": {
+        "x": 20,
+        "y": 1101,
+        "width": 1880,
+        "height": 27.8,
+        "area": 52258.1
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "sticky",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.PageInfo_inner__EjNFq",
+      "text": "Size   178cm   Coat   S   Body   S",
+      "rendered": {
+        "x": 30,
+        "y": 231,
+        "width": 337,
+        "height": 134.4,
+        "area": 45289.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "relative",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.PageInfo_content__z6erx.PageInfo_hasBar__YTsQz",
+      "text": "Size   178cm   Coat   S   Body   S",
+      "rendered": {
+        "x": 30,
+        "y": 231,
+        "width": 337,
+        "height": 134.4,
+        "area": 45289.6
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "header.Header_wrapper__SKB6q.Header_hasTunnel__pD__i",
+      "text": "All27Stories04MenuCart00Collection01 / 01",
+      "rendered": {
+        "x": 20,
+        "y": 20,
+        "width": 470,
+        "height": 86,
+        "area": 40420
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "fixed",
+        "zIndex": "2000",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Header_inner__t5u43",
+      "text": "All27Stories04MenuCart00",
+      "rendered": {
+        "x": 20,
+        "y": 20,
+        "width": 470,
+        "height": 58,
+        "area": 27260
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.AdaptableWrapper_wrapper__bToAF.Bars_bar__fFw9F.Bars_bottomLeft__i5k_z.AdaptableWrapper_enabled__4cyJp",
+      "text": "NIKITA BODY blackViewBEATRIX COATView",
+      "rendered": {
+        "x": 20,
+        "y": 1032,
+        "width": 627,
+        "height": 28,
+        "area": 17556
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "absolute",
+        "zIndex": "900",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.AdaptableWrapper_inner__3Z2hJ",
+      "text": "NIKITA BODY blackViewBEATRIX COATView",
+      "rendered": {
+        "x": 20,
+        "y": 1032,
+        "width": 626.7,
+        "height": 28,
+        "area": 17546.4
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.GroupBar_wrapper__BPid0",
+      "text": "NIKITA BODY blackViewBEATRIX COATView",
+      "rendered": {
+        "x": 20,
+        "y": 1032,
+        "width": 626.7,
+        "height": 28,
+        "area": 17546.4
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.ProductsBar_wrapper__asYaf.GroupBar_wrapper__BPid0",
+      "text": "NIKITA BODY blackViewBEATRIX COATView",
+      "rendered": {
+        "x": 20,
+        "y": 1032,
+        "width": 626.7,
+        "height": 28,
+        "area": 17546.4
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.PageInfo_top__fCCae",
+      "text": "Look 03 / 11THE REBEL",
+      "rendered": {
+        "x": 30,
+        "y": 144,
+        "width": 337,
+        "height": 47,
+        "area": 15839
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.AdaptableWrapper_wrapper__bToAF.Headings_wrapper__75B9v.PageInfo_headings__cvUvj.AdaptableWrapper_vertical__vg4Zq.AdaptableWrapper_enabled__4cyJp",
+      "text": "Look 03 / 11THE REBEL",
+      "rendered": {
+        "x": 30,
+        "y": 144,
+        "width": 337,
+        "height": 47,
+        "area": 15839
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "relative",
+        "zIndex": "200",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.AdaptableWrapper_inner__3Z2hJ",
+      "text": "Look 03 / 11THE REBEL",
+      "rendered": {
+        "x": 30,
+        "y": 144,
+        "width": 337,
+        "height": 46.8,
+        "area": 15770.5
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Header_line__t9nAr.Header_top__3rYty",
+      "text": "",
+      "rendered": {
+        "x": 20,
+        "y": 20,
+        "width": 470,
+        "height": 30,
+        "area": 14100
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Header_line__t9nAr.Header_menuLine__6MY1X",
+      "text": "All27Stories04MenuCart00",
+      "rendered": {
+        "x": 20,
+        "y": 50,
+        "width": 470,
+        "height": 28,
+        "area": 13160
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "div.Headings_title__JWnpi",
+      "text": "THE REBEL",
+      "rendered": {
+        "x": 30,
+        "y": 160.8,
+        "width": 337,
+        "height": 30,
+        "area": 10110
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    },
+    {
+      "label": "h1.PageTitle_wrapper__tZqEr.composition_heading__SmUUC",
+      "text": "THE REBEL",
+      "rendered": {
+        "x": 30,
+        "y": 160.8,
+        "width": 337,
+        "height": 30,
+        "area": 10110
+      },
+      "visible": true,
+      "style": {
+        "opacity": "1",
+        "objectFit": "fill",
+        "position": "static",
+        "zIndex": "auto",
+        "transform": "none",
+        "aspectRatio": "auto"
+      }
+    }
+  ]
+}

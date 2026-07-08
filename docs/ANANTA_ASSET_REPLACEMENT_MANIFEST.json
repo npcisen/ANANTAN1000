@@ -1,0 +1,165 @@
+{
+  "template": "ananta-look-page",
+  "localPage": "http://localhost:3000/",
+  "controllerPage": "http://localhost:3000/?controller=1",
+  "breakpoints": {
+    "desktop": "min-width: 901px",
+    "mobile": "max-width: 900px"
+  },
+  "assetRoot": "public/images/ananta",
+  "slots": [
+    {
+      "id": "hero.mainVideo",
+      "label": "Main foreground keyed video",
+      "currentFile": "public/images/ananta/rebel-main.mp4",
+      "format": "mp4",
+      "recommendedSize": "vertical 9:16, 810x1440 or higher",
+      "usedIn": "center hero figure",
+      "notes": "Green-screen video drawn to canvas. Keep background chroma color consistent or adjust keying code."
+    },
+    {
+      "id": "hero.mainFallback",
+      "label": "Main foreground fallback still",
+      "currentFile": "public/images/ananta/look-the-rebel.png",
+      "format": "png",
+      "recommendedSize": "1024x1820",
+      "usedIn": "fallback for main hero video and mobile/static thumbnail",
+      "notes": "Transparent portrait still. Also used by current look thumbnail on mobile."
+    },
+    {
+      "id": "timeline.desktop",
+      "label": "Desktop timeline strip",
+      "currentFile": "public/images/ananta/rebel-timeline-desktop.jpg",
+      "format": "jpg",
+      "recommendedSize": "480x96 or same 5:1 ratio",
+      "usedIn": "desktop video progress bar",
+      "notes": "Used when viewport is 901px or wider."
+    },
+    {
+      "id": "timeline.mobile",
+      "label": "Mobile timeline strip",
+      "currentFile": "public/images/ananta/rebel-timeline-mobile.jpg",
+      "format": "jpg",
+      "recommendedSize": "1562x116 or same long-strip ratio",
+      "usedIn": "mobile video progress bar",
+      "notes": "Used when viewport is 900px or narrower."
+    },
+    {
+      "id": "lookNav.kiddoStill",
+      "label": "Look nav previous still",
+      "currentFile": "public/images/ananta/look-the-kiddo.png",
+      "format": "png",
+      "recommendedSize": "1024x1820",
+      "usedIn": "mobile look thumbnail and ghost fallback",
+      "notes": "Static image replaces the thumbnail video on mobile."
+    },
+    {
+      "id": "lookNav.kiddoVideo",
+      "label": "Look nav previous desktop video",
+      "currentFile": "public/images/ananta/ghost-the-kiddo.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "desktop look thumbnail and background ghost",
+      "notes": "Desktop thumbnails prefer video when available."
+    },
+    {
+      "id": "lookNav.rebelVideo",
+      "label": "Current look desktop thumbnail video",
+      "currentFile": "public/images/ananta/rebel-thumb.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "desktop current look thumbnail",
+      "notes": "Mobile uses the still image instead."
+    },
+    {
+      "id": "lookNav.warriorStill",
+      "label": "Look nav next still",
+      "currentFile": "public/images/ananta/look-the-warrior.png",
+      "format": "png",
+      "recommendedSize": "1024x1820",
+      "usedIn": "mobile look thumbnail and ghost fallback",
+      "notes": "Static image replaces the thumbnail video on mobile."
+    },
+    {
+      "id": "lookNav.warriorVideo",
+      "label": "Look nav next desktop video",
+      "currentFile": "public/images/ananta/ghost-the-warrior.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "desktop look thumbnail and background ghost",
+      "notes": "Desktop thumbnails prefer video when available."
+    },
+    {
+      "id": "ghost.leftFar",
+      "label": "Left far background figure video",
+      "currentFile": "public/images/ananta/ghost-the-siren.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "background figure layer",
+      "notes": "Hidden on narrow mobile."
+    },
+    {
+      "id": "ghost.leftMiddle",
+      "label": "Left middle background figure video",
+      "currentFile": "public/images/ananta/ghost-the-kiddo.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "background figure layer",
+      "notes": "Remains visible on mobile."
+    },
+    {
+      "id": "ghost.rightMiddle",
+      "label": "Right middle background figure video",
+      "currentFile": "public/images/ananta/ghost-the-warrior.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "background figure layer",
+      "notes": "Remains visible on mobile."
+    },
+    {
+      "id": "ghost.rightFar",
+      "label": "Right far background figure video",
+      "currentFile": "public/images/ananta/ghost-the-domina.mp4",
+      "format": "mp4",
+      "recommendedSize": "square video, 400x400 or higher",
+      "usedIn": "background figure layer",
+      "notes": "Hidden on narrow mobile."
+    },
+    {
+      "id": "product.nikitaThumb",
+      "label": "Product thumbnail 1",
+      "currentFile": "public/images/ananta/product-nikita-thumb.jpg",
+      "format": "jpg",
+      "recommendedSize": "40x60 minimum, portrait product thumbnail",
+      "usedIn": "product bar and mobile product panel",
+      "notes": "Higher resolution is fine; CSS contains it inside a square box."
+    },
+    {
+      "id": "product.beatrixThumb",
+      "label": "Product thumbnail 2",
+      "currentFile": "public/images/ananta/product-beatrix-thumb.jpg",
+      "format": "jpg",
+      "recommendedSize": "40x60 minimum, portrait product thumbnail",
+      "usedIn": "product bar and mobile product panel",
+      "notes": "Higher resolution is fine; CSS contains it inside a square box."
+    },
+    {
+      "id": "product.nikitaDetail",
+      "label": "Product detail image 1",
+      "currentFile": "public/images/ananta/product-nikita-body-black.jpg",
+      "format": "jpg",
+      "recommendedSize": "2000x3000 portrait",
+      "usedIn": "reserved product detail asset",
+      "notes": "Not shown on the first viewport yet, but kept for future product detail expansion."
+    },
+    {
+      "id": "product.beatrixDetail",
+      "label": "Product detail image 2",
+      "currentFile": "public/images/ananta/product-beatrix-coat.jpg",
+      "format": "jpg",
+      "recommendedSize": "2000x3000 portrait",
+      "usedIn": "reserved product detail asset",
+      "notes": "Not shown on the first viewport yet, but kept for future product detail expansion."
+    }
+  ]
+}
