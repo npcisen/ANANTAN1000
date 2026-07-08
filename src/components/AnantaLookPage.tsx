@@ -1155,28 +1155,31 @@ function LookNavBar({
 }
 
 function TimelineBar({
-  assets,
   highlightedAssetKey,
+  lookImages,
+  currentCharacter,
   onScrubEnd,
   onScrubStart,
   onSeek,
   progress,
 }: {
-  assets: PageAssets;
   highlightedAssetKey: AssetKey | null;
+  lookImages: TimelineLookImage[];
+  currentCharacter: CharacterId;
   onScrubEnd: () => void;
   onScrubStart: () => void;
   onSeek: (progress: number) => void;
   progress: number;
 }) {
   const barRef = useRef<HTMLButtonElement>(null);
+  const currentImage = lookImages.find(
+    (img) => img.label.toLowerCase() === currentCharacter,
+  ) ?? lookImages[0] ?? { desktop: "", mobile: "", label: "" };
 
   const seekFromPointer = useCallback(
     (clientX: number) => {
       const rect = barRef.current?.getBoundingClientRect();
-      if (!rect) {
-        return;
-      }
+      if (!rect) { return; }
       onSeek(clampProgress((clientX - rect.left) / rect.width));
     },
     [onSeek],
@@ -1228,11 +1231,8 @@ function TimelineBar({
         type="button"
       >
         <picture className="ananta-timeline-picture">
-          <source
-            media="(max-width: 900px)"
-            srcSet={assets.timelineMobile}
-          />
-          <img alt="" draggable={false} src={assets.timelineDesktop} />
+          <source media="(max-width: 900px)" srcSet={currentImage.mobile} />
+          <img alt={currentImage.label} draggable={false} src={currentImage.desktop} />
         </picture>
         <span className="ananta-timeline-cursor" />
       </button>
@@ -1285,8 +1285,9 @@ function LookInfo({
       </h1>
       {!hidden.timeline ? (
         <TimelineBar
-          assets={assets}
           highlightedAssetKey={highlightedAssetKey}
+          lookImages={timelineLookImages}
+          currentCharacter={currentCharacter}
           onScrubEnd={onScrubEnd}
           onScrubStart={onScrubStart}
           onSeek={onSeek}

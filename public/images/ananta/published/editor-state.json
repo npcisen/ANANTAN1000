@@ -154,8 +154,8 @@
     "chatDialogScale": 1,
     "timelineLookImages": [
       {
-        "desktop": "/images/ananta/xr_timeline_480x96_24frames.png",
-        "mobile": "/images/ananta/xr_timeline_1562x116_80frames.jpg",
+        "desktop": "ananta-upload://5f522b6e-9bd0-4ba7-a398-9dd5704a9fba",
+        "mobile": "ananta-upload://8c7e84df-2f49-4186-9f09-8593550fc198",
         "label": "Rebel"
       },
       {
@@ -217,5 +217,5 @@
       }
     ]
   },
-  "updatedAt": "2026-07-08T00:00:16.063Z"
+  "updatedAt": "2026-07-08T00:08:26.171Z"
 }
