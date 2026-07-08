@@ -1941,17 +1941,19 @@ const assetOptions = getAssetOptions(editor);
   const handleBgDesktopFile=useCallback(async(f: File | null)=>{if(!f)return;try{const s=await saveUploadToDb(f);const u=URL.createObjectURL(f);onUploadReady(s,u);setBgDesktopPreviewUrl(u);setBgDesktopPreviewSource(s);showFeedback("已上传桌面背景。","info");}catch{showFeedback("无法处理。","warning");}},[onUploadReady,showFeedback]);
   const handleBgMobileFile=useCallback(async(f: File | null)=>{if(!f)return;try{const s=await saveUploadToDb(f);const u=URL.createObjectURL(f);onUploadReady(s,u);setBgMobilePreviewUrl(u);setBgMobilePreviewSource(s);showFeedback("已上传手机背景。","info");}catch{showFeedback("无法处理。","warning");}},[onUploadReady,showFeedback]);
 
-  const handleTimelineFile = useCallback(async (file: File | null) => {
-    if (!file || timelineUploadIndex === null || !timelineUploadField) return;
+  const handleTimelineFile = useCallback(async (file: File | null, index: number, field: "desktop" | "mobile") => {
+    if (!file) return;
     try {
       const source = await saveUploadToDb(file);
       const url = URL.createObjectURL(file);
       onUploadReady(source, url);
+      setTimelineUploadIndex(index);
+      setTimelineUploadField(field);
       setTimelinePreviewUrl(url);
       setTimelinePreviewSource(source);
       showFeedback("已上传，请确认。", "info");
     } catch { showFeedback("无法处理。", "warning"); }
-  }, [timelineUploadIndex, timelineUploadField, onUploadReady, showFeedback]);
+  }, [onUploadReady, showFeedback]);
 const handlePublish = useCallback(async () => {
     setPublishing(true);
     showFeedback("正在把当前版本发布到 3007 项目文件中...", "info");
@@ -2514,17 +2516,126 @@ const handlePublish = useCallback(async () => {
 
       <details className="ananta-controller-group" open>
         <summary>走马灯各 LOOK 图片（上传预览确认）</summary>
-        {editor.timelineLookImages.map((item, index) => (
-          <div className="ananta-controller-card" key={"tl-"+index}>
-            <div className="ananta-controller-row"><strong>{item.label||"Look "+(index+1)}</strong></div>
-            <label className="ananta-controller-field"><span>桌面端图片</span>
-              <input type="text" placeholder="/images/..." value={item.desktop} onChange={(e)=>{onTimelineLookChange(index,"desktop",e.currentTarget.value);}} />
-            </label>
-            <label className="ananta-controller-field"><span>移动端图片</span>
-              <input type="text" placeholder="/images/..." value={item.mobile} onChange={(e)=>{onTimelineLookChange(index,"mobile",e.currentTarget.value);}} />
-            </label>
+                  <div className="ananta-controller-card" key={"tl-0"}>
+            <div className="ananta-controller-row"><strong>Rebel</strong></div>
+            <div className="ananta-controller-actions">
+              <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,0,"desktop");}} type="file" />
+              </label>
+              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,0,"mobile");}} type="file" />
+              </label>
+            </div>
+            {timelineUploadIndex === 0 && timelinePreviewUrl ? (
+              <div style={{padding:"4px 0",textAlign:"center"}}>
+                <img alt="预览" src={timelinePreviewUrl} style={{maxHeight:"60px",maxWidth:"100%",objectFit:"contain",borderRadius:"2px"}} />
+                <div className="ananta-controller-actions" style={{marginTop:"6px"}}>
+                  <button className="ananta-controller-primary" onClick={()=>{onTimelineLookChange(0,timelineUploadField??"desktop",timelinePreviewSource??"");setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">确认使用</button>
+                  <button onClick={()=>{if(timelinePreviewUrl)URL.revokeObjectURL(timelinePreviewUrl);setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">取消</button>
+                </div>
+              </div>
+            ) : (
+              <div className="ananta-controller-actions">
+                <span style={{color:"#999",fontSize:"calc(6*var(--ananta-rem))",textTransform:"none"}}>路径: {(()=>{try{return editor.timelineLookImages[0]?.desktop||"无"}catch{return"无"}})()}</span>
+              </div>
+            )}
           </div>
-        ))}
+          <div className="ananta-controller-card" key={"tl-1"}>
+            <div className="ananta-controller-row"><strong>Siren</strong></div>
+            <div className="ananta-controller-actions">
+              <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,1,"desktop");}} type="file" />
+              </label>
+              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,1,"mobile");}} type="file" />
+              </label>
+            </div>
+            {timelineUploadIndex === 1 && timelinePreviewUrl ? (
+              <div style={{padding:"4px 0",textAlign:"center"}}>
+                <img alt="预览" src={timelinePreviewUrl} style={{maxHeight:"60px",maxWidth:"100%",objectFit:"contain",borderRadius:"2px"}} />
+                <div className="ananta-controller-actions" style={{marginTop:"6px"}}>
+                  <button className="ananta-controller-primary" onClick={()=>{onTimelineLookChange(1,timelineUploadField??"desktop",timelinePreviewSource??"");setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">确认使用</button>
+                  <button onClick={()=>{if(timelinePreviewUrl)URL.revokeObjectURL(timelinePreviewUrl);setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">取消</button>
+                </div>
+              </div>
+            ) : (
+              <div className="ananta-controller-actions">
+                <span style={{color:"#999",fontSize:"calc(6*var(--ananta-rem))",textTransform:"none"}}>路径: {(()=>{try{return editor.timelineLookImages[1]?.desktop||"无"}catch{return"无"}})()}</span>
+              </div>
+            )}
+          </div>
+          <div className="ananta-controller-card" key={"tl-2"}>
+            <div className="ananta-controller-row"><strong>Kiddo</strong></div>
+            <div className="ananta-controller-actions">
+              <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,2,"desktop");}} type="file" />
+              </label>
+              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,2,"mobile");}} type="file" />
+              </label>
+            </div>
+            {timelineUploadIndex === 2 && timelinePreviewUrl ? (
+              <div style={{padding:"4px 0",textAlign:"center"}}>
+                <img alt="预览" src={timelinePreviewUrl} style={{maxHeight:"60px",maxWidth:"100%",objectFit:"contain",borderRadius:"2px"}} />
+                <div className="ananta-controller-actions" style={{marginTop:"6px"}}>
+                  <button className="ananta-controller-primary" onClick={()=>{onTimelineLookChange(2,timelineUploadField??"desktop",timelinePreviewSource??"");setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">确认使用</button>
+                  <button onClick={()=>{if(timelinePreviewUrl)URL.revokeObjectURL(timelinePreviewUrl);setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">取消</button>
+                </div>
+              </div>
+            ) : (
+              <div className="ananta-controller-actions">
+                <span style={{color:"#999",fontSize:"calc(6*var(--ananta-rem))",textTransform:"none"}}>路径: {(()=>{try{return editor.timelineLookImages[2]?.desktop||"无"}catch{return"无"}})()}</span>
+              </div>
+            )}
+          </div>
+          <div className="ananta-controller-card" key={"tl-3"}>
+            <div className="ananta-controller-row"><strong>Warrior</strong></div>
+            <div className="ananta-controller-actions">
+              <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,3,"desktop");}} type="file" />
+              </label>
+              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,3,"mobile");}} type="file" />
+              </label>
+            </div>
+            {timelineUploadIndex === 3 && timelinePreviewUrl ? (
+              <div style={{padding:"4px 0",textAlign:"center"}}>
+                <img alt="预览" src={timelinePreviewUrl} style={{maxHeight:"60px",maxWidth:"100%",objectFit:"contain",borderRadius:"2px"}} />
+                <div className="ananta-controller-actions" style={{marginTop:"6px"}}>
+                  <button className="ananta-controller-primary" onClick={()=>{onTimelineLookChange(3,timelineUploadField??"desktop",timelinePreviewSource??"");setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">确认使用</button>
+                  <button onClick={()=>{if(timelinePreviewUrl)URL.revokeObjectURL(timelinePreviewUrl);setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">取消</button>
+                </div>
+              </div>
+            ) : (
+              <div className="ananta-controller-actions">
+                <span style={{color:"#999",fontSize:"calc(6*var(--ananta-rem))",textTransform:"none"}}>路径: {(()=>{try{return editor.timelineLookImages[3]?.desktop||"无"}catch{return"无"}})()}</span>
+              </div>
+            )}
+          </div>
+          <div className="ananta-controller-card" key={"tl-4"}>
+            <div className="ananta-controller-row"><strong>Domina</strong></div>
+            <div className="ananta-controller-actions">
+              <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,4,"desktop");}} type="file" />
+              </label>
+              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
+                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,4,"mobile");}} type="file" />
+              </label>
+            </div>
+            {timelineUploadIndex === 4 && timelinePreviewUrl ? (
+              <div style={{padding:"4px 0",textAlign:"center"}}>
+                <img alt="预览" src={timelinePreviewUrl} style={{maxHeight:"60px",maxWidth:"100%",objectFit:"contain",borderRadius:"2px"}} />
+                <div className="ananta-controller-actions" style={{marginTop:"6px"}}>
+                  <button className="ananta-controller-primary" onClick={()=>{onTimelineLookChange(4,timelineUploadField??"desktop",timelinePreviewSource??"");setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">确认使用</button>
+                  <button onClick={()=>{if(timelinePreviewUrl)URL.revokeObjectURL(timelinePreviewUrl);setTimelinePreviewUrl(null);setTimelinePreviewSource(null);setTimelineUploadIndex(null);setTimelineUploadField(null);}} type="button">取消</button>
+                </div>
+              </div>
+            ) : (
+              <div className="ananta-controller-actions">
+                <span style={{color:"#999",fontSize:"calc(6*var(--ananta-rem))",textTransform:"none"}}>路径: {(()=>{try{return editor.timelineLookImages[4]?.desktop||"无"}catch{return"无"}})()}</span>
+              </div>
+            )}
+          </div>
       </details>
       <details className="ananta-controller-group" open>
         <summary>每个角色的聊天头像框</summary>
