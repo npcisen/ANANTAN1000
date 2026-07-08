@@ -1,0 +1,19 @@
+{
+  "envId": "ananta1000-d4gl4x4xt3013c6d7",
+  "framework": {
+    "plugins": {
+      "server": {
+        "use": "@cloudbase/framework-plugin-next",
+        "inputs": {
+          "entry": "./",
+          "buildCommand": "npm run build",
+          "startCommand": "npm run start",
+          "functionName": "next-app",
+          "functionRegion": "ap-guangzhou",
+          "functionTimeout": 60,
+          "functionMemorySize": 512
+        }
+      }
+    }
+  }
+}
