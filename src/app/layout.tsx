@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "角色档案 CHARACTERS",
   description:
     "Born on the road, made for the city. Technical, protective and unapologetically feminine.",
+  icons: {
+    icon: "/images/ananta/published/31c832c7-0cc1-4986-8e90-33ea5dfbf69c.png",
+  },
 };
 
 export default function RootLayout({
