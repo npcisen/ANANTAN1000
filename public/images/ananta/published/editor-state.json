@@ -39,7 +39,7 @@
     "hidden": {
       "details": false,
       "figure": false,
-      "footer": false,
+      "footer": true,
       "ghosts": false,
       "header": false,
       "lookInfo": false,
@@ -75,10 +75,10 @@
       "headerMenu": "首页",
       "headerStories": "队列",
       "headerStoriesSuffix": "44",
-      "lookKicker": "BANSY",
+      "lookKicker": "RICHIE",
       "lookNavLabel": "阵营",
-      "lookNavSuffix": "BANSY",
-      "lookTitle": "班茜",
+      "lookNavSuffix": "RICHIE",
+      "lookTitle": "里希",
       "productsButtonLabel": "切换 //",
       "productView": ">",
       "productsClose": "Close",
@@ -119,47 +119,47 @@
         "label": "LINK 4",
         "src": "/images/ananta/000-04.jpg",
         "video": "",
-        "current": false,
+        "current": true,
         "id": "warrior"
       }
     ],
     "logoScale": 1.9,
     "chatCards": {
       "rebel": {
-        "avatar": "",
-        "name": "SEYMOUR",
-        "dialog": "充满破坏与创造欲的灵魂画师。唯有涂鸦才是真爱，看这完美的创作，你一定会着魔的。"
+        "avatar": "/images/ananta/published/76973d84-cbec-47b1-8673-f50b8092fb4b.png",
+        "name": "CATAIN",
+        "dialog": "我不堵车，我用飞的。"
       },
       "siren": {
-        "avatar": "",
-        "name": "VIVIEN",
-        "dialog": "优雅与危险并存。每一个转身都是艺术品，每一道目光都是陷阱。"
+        "avatar": "/images/ananta/published/7bf548ed-35c7-4e9b-9ea8-e19d093d0b49.png",
+        "name": "RINGO",
+        "dialog": "充满破坏与创造欲的灵魂画师。唯有涂鸦才是真爱，看这完美的创作，你一定会着魔的。"
       },
       "kiddo": {
-        "avatar": "",
-        "name": "LUNA",
-        "dialog": "永远年轻，永远热泪盈眶。这个世界就是我的游乐场。"
+        "avatar": "/images/ananta/published/31c832c7-0cc1-4986-8e90-33ea5dfbf69c.png",
+        "name": "TAFFY",
+        "dialog": "这工作这么难，当初就不该给我。"
       },
       "warrior": {
-        "avatar": "",
+        "avatar": "/images/ananta/published/56eb9d50-1c40-4c82-8063-b4267cabafe6.png",
         "name": "RAVEN",
-        "dialog": "战场是我的舞台。伤痕是最好的勋章，胜利是唯一的答案。"
+        "dialog": "我的直觉告诉我，它也是瞎蒙的。"
       },
       "domina": {
-        "avatar": "",
-        "name": "SAGE",
+        "avatar": "/images/ananta/published/5af7aa10-167d-4bdf-8e3b-6573c8d74c85.png",
+        "name": "LYKAIA",
         "dialog": "掌控一切的感觉，比任何东西都令人着迷。规则由我书写。"
       }
     },
-    "chatDialogScale": 1,
+    "chatDialogScale": 1.6000000000000005,
     "timelineLookImages": [
       {
-        "desktop": "ananta-upload://07e2fb94-e5ce-4b81-b016-cc7fc901e7f4",
-        "mobile": "ananta-upload://852550ec-19ac-4f28-8f4c-fffb7c4deda5",
+        "desktop": "/images/ananta/published/20260708002046-1f8b0a97-xr_timeline_480x96_24frames.png",
+        "mobile": "/images/ananta/published/20260708002046-45f181d1-xr_timeline_1562x116_80frames.jpg",
         "label": "Rebel"
       },
       {
-        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
+        "desktop": "/images/ananta/published/20260708002046-7ea46f3d-ghost_the_siren_timeline_480x96_24frames.jpg",
         "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
         "label": "Siren"
       },
@@ -169,13 +169,13 @@
         "label": "Kiddo"
       },
       {
-        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
-        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "desktop": "/images/ananta/published/20260708002046-cd6d5c53-ghost_the_warrior_timeline_480x96_24frames.jpg",
+        "mobile": "/images/ananta/published/20260708002046-46aa617d-ghost_the_warrior_timeline_1562x116_80frames.jpg",
         "label": "Warrior"
       },
       {
-        "desktop": "/images/ananta/rebel-timeline-desktop.jpg",
-        "mobile": "/images/ananta/rebel-timeline-mobile.jpg",
+        "desktop": "/images/ananta/published/20260708002046-964f1d5f-ghost_the_domina_timeline_480x96_24frames.jpg",
+        "mobile": "/images/ananta/published/20260708002046-65ba5e9b-ghost_the_domina_timeline_1562x116_80frames.png",
         "label": "Domina"
       }
     ],
@@ -217,5 +217,5 @@
       }
     ]
   },
-  "updatedAt": "2026-07-08T00:14:45.980Z"
+  "updatedAt": "2026-07-08T00:47:04.033Z"
 }
