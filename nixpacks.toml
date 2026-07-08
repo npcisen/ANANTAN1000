@@ -1,0 +1,15 @@
+[phases]
+enable = ["nodejs"]
+
+[phases.setup]
+nixPkgs = ["nodejs", "nodePackages.pnpm"]
+
+[phases.install]
+packageManager = "npm"
+cmds = ["npm ci --no-audit --no-fund"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"
