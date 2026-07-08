@@ -629,6 +629,8 @@ function collectUploadedAssetSources(editor: EditorState) {
     ...Object.values(editor.assets),
     ...editor.thumbs.flatMap((thumb) => [thumb.src, thumb.video]),
     ...editor.products.map((product) => product.image),
+    ...editor.timelineLookImages.flatMap((item) => [item.desktop, item.mobile]),
+    ...Object.values(editor.chatCards).map((card) => card.avatar),
   ];
 
   return Array.from(new Set(sources.filter(isUploadedAssetSource)));

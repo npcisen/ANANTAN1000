@@ -27,8 +27,8 @@
         "title": "队长"
       },
       "siren": {
-        "lookNumber": "LAODA",
-        "title": "队长"
+        "lookNumber": "BANSY",
+        "title": "班茜"
       },
       "warrior": {
         "lookNumber": "RICHIE",
@@ -37,9 +37,9 @@
     },
     "fontFamily": "\"Eurostile Ananta\", \"Helvetica Neue\", Arial, sans-serif",
     "hidden": {
-      "details": true,
+      "details": false,
       "figure": false,
-      "footer": true,
+      "footer": false,
       "ghosts": false,
       "header": false,
       "lookInfo": false,
@@ -75,10 +75,10 @@
       "headerMenu": "首页",
       "headerStories": "队列",
       "headerStoriesSuffix": "44",
-      "lookKicker": "LAODA",
+      "lookKicker": "BANSY",
       "lookNavLabel": "阵营",
-      "lookNavSuffix": "LAODA",
-      "lookTitle": "队长",
+      "lookNavSuffix": "BANSY",
+      "lookTitle": "班茜",
       "productsButtonLabel": "切换 //",
       "productView": ">",
       "productsClose": "Close",
@@ -105,7 +105,7 @@
         "label": "THE REBEL",
         "src": "/images/ananta/000-02.jpg",
         "video": "",
-        "current": true
+        "current": false
       },
       {
         "id": "domina",
@@ -154,8 +154,8 @@
     "chatDialogScale": 1,
     "timelineLookImages": [
       {
-        "desktop": "ananta-upload://5f522b6e-9bd0-4ba7-a398-9dd5704a9fba",
-        "mobile": "ananta-upload://8c7e84df-2f49-4186-9f09-8593550fc198",
+        "desktop": "ananta-upload://07e2fb94-e5ce-4b81-b016-cc7fc901e7f4",
+        "mobile": "ananta-upload://852550ec-19ac-4f28-8f4c-fffb7c4deda5",
         "label": "Rebel"
       },
       {
@@ -217,5 +217,5 @@
       }
     ]
   },
-  "updatedAt": "2026-07-08T00:08:26.171Z"
+  "updatedAt": "2026-07-08T00:14:45.980Z"
 }
