@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "THE REBEL | Ananta",
+  title: "角色档案 CHARACTERS",
   description:
     "Born on the road, made for the city. Technical, protective and unapologetically feminine.",
 };
