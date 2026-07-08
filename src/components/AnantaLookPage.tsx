@@ -2625,10 +2625,6 @@ const handlePublish = useCallback(async () => {
             <div className="ananta-controller-row"><strong>Warrior</strong></div>
             <div className="ananta-controller-actions">
               <label className="ananta-controller-field" style={{flex:1}}><span>桌面端</span>
-                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,3,"desktop");}} type="file" />
-              </label>
-              <label className="ananta-controller-field" style={{flex:1}}><span>移动端</span>
-                <input accept="image/png,image/jpeg,image/webp" onChange={(e)=>{void handleTimelineFile(e.currentTarget.files?.[0]??null,3,"mobile");}} type="file" />
               </label>
             </div>
             {timelineUploadIndex === 3 && timelinePreviewUrl ? (
@@ -2779,7 +2775,7 @@ export function AnantaLookPage() {
         if (publishedEditor && !cancelled) {
           setEditor({
             ...publishedEditor,
-            hidden: { ...publishedEditor.hidden, details: false, footer: false },
+            hidden: { ...publishedEditor.hidden, details: false },
           });
         }
       } catch {
