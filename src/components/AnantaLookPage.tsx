@@ -665,6 +665,17 @@ function resolveUploadedEditorSources(
       src: resolveUploadedSource(thumb.src, uploads),
       video: resolveUploadedSource(thumb.video, uploads),
     })),
+    timelineLookImages: editor.timelineLookImages.map((item) => ({
+      ...item,
+      desktop: resolveUploadedSource(item.desktop, uploads),
+      mobile: resolveUploadedSource(item.mobile, uploads),
+    })),
+    chatCards: Object.fromEntries(
+      Object.entries(editor.chatCards).map(([key, card]) => [
+        key,
+        { ...card, avatar: resolveUploadedSource(card.avatar, uploads) },
+      ]),
+    ) as Record<CharacterId, ChatCardData>,
   };
 }
 
